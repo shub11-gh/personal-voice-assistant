@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# NLTK data
+nltk_data/
+
+# Notes created by the assistant
+*.txt
+
+# OS files
+.DS_Store
+Thumbs.db

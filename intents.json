@@ -1,0 +1,70 @@
+{
+    "intents":
+    [
+        {
+            "tag": "greeting",
+            "patterns": ["Hey","Hello", "What,s up?", "How is it going?","Hi","Good day"],
+            "responses": ["Hello!", "Hello, what can I do for you", "Hi"] 
+        },
+        {
+            "tag": "create_note",
+            "patterns": ["Please create a new note","New note", "Create a note", "I want to create a note"],
+            "responses": [""] 
+        },
+        {
+            "tag": "add_todo",
+            "patterns": ["I want to add a todo","add a new todo", "add a new todo to my list", "new item on my todo list"],
+            "responses": [""] 
+        },
+        {
+            "tag": "show_todos",
+            "patterns": ["Show my to dos", "What are my to dos", "What is on my to do list"],
+            "responses": [""] 
+        },
+        {
+            "tag": "exit",
+            "patterns": ["Bye","Stop", "Quit", "I want to quit","Goodbye","I want to exit","I have to go"],
+            "responses": [""] 
+        },
+        {
+            "tag": "periodic_fact",
+            "patterns": ["Tell me a periodic table fact", "Tell me about oxygen", "Periodic table element fact", "Element information", "What is hydrogen?"],
+            "responses": [""]
+        },
+        {
+            "tag": "motivate",
+            "patterns": ["Motivate me", "Tell me a motivational quote", "I need motivation", "Say something inspiring"],
+            "responses": [""]
+        },
+        {
+            "tag": "explain_concept",
+            "patterns": ["Explain photosynthesis", "Explain gravity", "What is an atom?", "Explain evaporation", "Explain a concept"],
+            "responses": [""]
+        },
+        {
+            "tag": "tell_date",
+            "patterns": ["Tell me the date", "What is today's date?", "Current date", "Date please", "What's the date?"],
+            "responses": [""]
+        },
+        {
+            "tag": "tell_time",
+            "patterns": ["What is the time?", "Current time", "Time please", "What's the time?", "Tell me the time"],
+            "responses": [""]
+        },
+        {
+            "tag": "delete_todo",
+            "patterns": ["Delete a to do", "Remove a to do", "Delete item from my to do list", "Remove item from to do list"],
+            "responses": [""]
+        },
+        {
+            "tag": "list_notes",
+            "patterns": ["List my notes", "Show all notes", "What notes do I have?"],
+            "responses": [""]
+        },
+        {
+            "tag": "read_note",
+            "patterns": ["Read a note", "Read my note", "Read note file", "Read the note named"],
+            "responses": [""]
+        }
+    ]
+}

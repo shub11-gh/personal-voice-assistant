@@ -1,4 +1,4 @@
-# Personal Voice Assistant
+# VoiceIQ
 
 A Python-based personal voice assistant that can:
 - Create and read notes
